@@ -21,7 +21,7 @@ Open the `index.html` file and debug the code. The application currently has bug
    - The list of requests (Request A, B, C) should become visible
    - Clicking it again should hide the list (toggle functionality)
 
-## You can use https://www.w3schools.com/ for answers
+## You can use https://www.w3schools.com/ 
 
 
 Good luck! 🚀
