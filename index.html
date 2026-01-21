@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .status {
+      margin-top: 10px;
+      color: green;
+      font-weight: bold;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h3>Submit Request</h3>
+
+  <button id="submitBtn">Submit</button>
+  <div id="status"></div>
+
+  <hr />
+
+  <button id="showBtn">Show Requests</button>
+
+  <ol id="requestList" class="hidden">
+    <li>Request A</li>
+    <li>Request B</li>
+    <li>Request C</li>
+  </ol>
+
+  <script>
+    const submitButton = document.getElementById("submitBtn");
+    const status = document.getElementsByClassName("status");
+
+    const showButton = document.getElementById("showBtn");
+    const list = document.getElementById("requestList");
+
+    submitButton.onclick = function () {
+      status.innerText = "Request submitted successfully.";
+    };
+
+    showButton.onclick = function () {
+      // TODO: Show the list
+    };
+  </script>
+
+</body>
+</html>
