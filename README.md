@@ -24,4 +24,4 @@ Open the `index.html` file and debug the code. The application currently has bug
 ## You can use https://www.w3schools.com/ 
 
 
-Good luck! 🚀
+Good luck! 
